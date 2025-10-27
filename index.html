@@ -1,0 +1,1596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Metadata -->
+    <title>Techspase Finance - Instant Loans Kenya | M-PESA Loans | Check Loan Eligibility</title>
+    <meta name="description" content="Get instant loans in Kenya with M-PESA integration. Apply for up to KES 35,000+ with zero paperwork. Check your loan eligibility online in minutes. Fast, secure, and convenient.">
+    <meta name="keywords" content="Instant loans Kenya, M-PESA loans, Check loan eligibility, Quick loans Kenya, Mobile loans, Fast cash Kenya, Online loans, CBK licensed loans, Instant cash advance">
+    <meta name="author" content="Techspace Finance">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="Techspase Finance - Instant Loans with M-PESA Integration">
+    <meta property="og:description" content="Get up to KES 35,000+ instantly. Zero paperwork. M-PESA integration.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="professional_african_e8d1ad13.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2322c55e'><path d='M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm.31-8.86c-1.77-.45-2.34-.94-2.34-1.67 0-.84.79-1.43 2.1-1.43 1.38 0 1.9.66 1.94 1.64h1.71c-.05-1.34-.87-2.57-2.49-2.97V5H10.9v1.69c-1.51.32-2.72 1.3-2.72 2.81 0 1.79 1.49 2.69 3.66 3.21 1.95.46 2.34 1.15 2.34 1.87 0 .53-.39 1.39-2.1 1.39-1.6 0-2.23-.72-2.32-1.64H8.04c.1 1.7 1.36 2.66 2.86 2.97V19h2.34v-1.67c1.52-.29 2.72-1.16 2.73-2.77-.01-2.2-1.9-2.96-3.66-3.42z'/></svg>">
+    
+    <!-- Schema Markup for SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FinancialService",
+      "name": "Techspase Finance",
+      "description": "Instant loans with M-PESA integration in Kenya",
+      "url": "https://techspacefinance.onrender.com",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "2547"
+      },
+      "offers": {
+        "@type": "Offer",
+        "description": "Instant loans up to KES 35,000+"
+      }
+    }
+    </script>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            color: #1f2937;
+            line-height: 1.6;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            loading: lazy;
+        }
+
+        .navbar {
+            background: #22c55e;
+            color: white;
+            padding: 1rem 2rem;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .navbar-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .nav-menu {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        .nav-menu a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: opacity 0.3s ease;
+        }
+
+        .nav-menu a:hover {
+            opacity: 0.8;
+        }
+
+        .nav-menu a.highlight {
+            background: white;
+            color: #22c55e;
+            padding: 0.5rem 1.5rem;
+            border-radius: 8px;
+            font-weight: 600;
+        }
+
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+            gap: 4px;
+        }
+
+        .hamburger span {
+            width: 25px;
+            height: 3px;
+            background: white;
+            border-radius: 2px;
+            transition: 0.3s;
+        }
+
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                url('professional_african_e8d1ad13.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 10rem 2rem 6rem;
+            text-align: center;
+            margin-top: 60px;
+        }
+
+        .hero-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+
+        .hero p {
+            font-size: 1.25rem;
+            margin-bottom: 2rem;
+            opacity: 0.95;
+        }
+
+        .hero .promo {
+            font-size: 2rem;
+            color: #fbbf24;
+            font-weight: 700;
+            margin-bottom: 2.5rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 1rem 2.5rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            border: none;
+            min-height: 44px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .btn-primary {
+            background: #22c55e;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: #16a34a;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(34,197,94,0.3);
+        }
+
+        .btn-outline {
+            background: transparent;
+            color: white;
+            border: 2px solid white;
+        }
+
+        .btn-outline:hover {
+            background: white;
+            color: #22c55e;
+        }
+
+        .section {
+            padding: 4rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+            color: #1f2937;
+            font-weight: 700;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+        }
+
+        .service-card {
+            text-align: center;
+            padding: 2rem;
+            border-radius: 12px;
+            background: #f9fafb;
+            transition: all 0.3s ease;
+        }
+
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+        }
+
+        .service-icon {
+            width: 64px;
+            height: 64px;
+            margin: 0 auto 1.5rem;
+            color: #22c55e;
+        }
+
+        .service-card h3 {
+            color: #22c55e;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+
+        .service-card p {
+            color: #6b7280;
+            line-height: 1.8;
+        }
+
+        .about {
+            background: #f9fafb;
+        }
+
+        .about-content {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+            font-size: 1.125rem;
+            line-height: 1.8;
+            color: #4b5563;
+        }
+
+        /* How It Works Section */
+        .how-it-works {
+            background: white;
+        }
+
+        .steps-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .step {
+            text-align: center;
+            padding: 2rem;
+            position: relative;
+        }
+
+        .step-number {
+            width: 60px;
+            height: 60px;
+            background: #22c55e;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin: 0 auto 1.5rem;
+        }
+
+        .step h3 {
+            color: #1f2937;
+            margin-bottom: 1rem;
+            font-size: 1.25rem;
+        }
+
+        .step p {
+            color: #6b7280;
+        }
+
+        /* Testimonials Section */
+        .testimonials {
+            background: #f9fafb;
+        }
+
+        .testimonials-slider {
+            max-width: 800px;
+            margin: 0 auto;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .testimonial-track {
+            display: flex;
+            transition: transform 0.5s ease;
+        }
+
+        .testimonial {
+            min-width: 100%;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .testimonial-text {
+            font-size: 1.125rem;
+            font-style: italic;
+            color: #4b5563;
+            margin-bottom: 1.5rem;
+            line-height: 1.8;
+        }
+
+        .testimonial-author {
+            font-weight: 600;
+            color: #22c55e;
+            font-size: 1.125rem;
+        }
+
+        .testimonial-role {
+            color: #6b7280;
+            font-size: 0.875rem;
+        }
+
+        .rating {
+            color: #fbbf24;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+
+        .slider-dots {
+            display: flex;
+            justify-content: center;
+            gap: 0.5rem;
+            margin-top: 2rem;
+        }
+
+        .dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #d1d5db;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .dot.active {
+            background: #22c55e;
+        }
+
+        /* FAQ Section */
+        .faq {
+            background: white;
+        }
+
+        .faq-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .faq-item {
+            margin-bottom: 1.5rem;
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .faq-question {
+            width: 100%;
+            background: #f9fafb;
+            border: none;
+            padding: 1.25rem;
+            text-align: left;
+            font-size: 1.125rem;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background 0.3s ease;
+        }
+
+        .faq-question:hover {
+            background: #f3f4f6;
+        }
+
+        .faq-question::after {
+            content: '+';
+            font-size: 1.5rem;
+            color: #22c55e;
+            transition: transform 0.3s ease;
+        }
+
+        .faq-question.active::after {
+            transform: rotate(45deg);
+        }
+
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+            background: white;
+        }
+
+        .faq-answer.active {
+            max-height: 500px;
+        }
+
+        .faq-answer-content {
+            padding: 1.25rem;
+            color: #6b7280;
+            line-height: 1.8;
+        }
+
+        /* Loan Details Section */
+        .loan-details {
+            background: #f9fafb;
+        }
+
+        .details-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+        }
+
+        .detail-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+
+        .detail-card h3 {
+            color: #22c55e;
+            margin-bottom: 1rem;
+            font-size: 1.25rem;
+        }
+
+        .detail-card ul {
+            list-style: none;
+            color: #6b7280;
+        }
+
+        .detail-card li {
+            padding: 0.5rem 0;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+
+        .detail-card li::before {
+            content: '✓';
+            color: #22c55e;
+            position: absolute;
+            left: 0;
+            font-weight: bold;
+        }
+
+        /* Security Section */
+        .security {
+            background: white;
+            text-align: center;
+        }
+
+        .security-badges {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+            margin-top: 2rem;
+        }
+
+        .security-badge {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 1rem 1.5rem;
+            background: #f9fafb;
+            border-radius: 8px;
+        }
+
+        .security-badge svg {
+            width: 32px;
+            height: 32px;
+            color: #22c55e;
+        }
+
+        /* Partners Section */
+        .partners {
+            background: #f9fafb;
+            text-align: center;
+        }
+
+        .partners-grid {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 3rem;
+            flex-wrap: wrap;
+            margin-top: 2rem;
+        }
+
+        .partner-logo {
+            padding: 1.5rem;
+            background: white;
+            border-radius: 8px;
+            font-weight: 600;
+            color: #4b5563;
+            font-size: 1.125rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+
+        /* CTA Section */
+        .cta-section {
+            background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
+            color: white;
+            text-align: center;
+            padding: 4rem 2rem;
+        }
+
+        .cta-section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .cta-section p {
+            font-size: 1.25rem;
+            margin-bottom: 2rem;
+            opacity: 0.95;
+        }
+
+        /* Contact Form */
+        .contact-form-section {
+            background: white;
+        }
+
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+            color: #1f2937;
+        }
+
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 0.875rem;
+            border: 1px solid #d1d5db;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-family: inherit;
+            transition: border-color 0.3s ease;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color: #22c55e;
+        }
+
+        .form-group textarea {
+            min-height: 120px;
+            resize: vertical;
+        }
+
+        .submit-btn {
+            width: 100%;
+            background: #22c55e;
+            color: white;
+            padding: 1rem;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.125rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .submit-btn:hover {
+            background: #16a34a;
+        }
+
+        /* Modal Styles */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 2000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0,0,0,0.6);
+        }
+
+        .modal-content {
+            background-color: white;
+            margin: 5% auto;
+            padding: 2rem;
+            border-radius: 12px;
+            width: 90%;
+            max-width: 600px;
+            max-height: 80vh;
+            overflow-y: auto;
+            position: relative;
+        }
+
+        .close-modal {
+            color: #9ca3af;
+            float: right;
+            font-size: 2rem;
+            font-weight: bold;
+            cursor: pointer;
+            line-height: 1;
+            transition: color 0.3s ease;
+        }
+
+        .close-modal:hover {
+            color: #1f2937;
+        }
+
+        .modal h2 {
+            color: #22c55e;
+            margin-bottom: 1.5rem;
+            font-size: 2rem;
+        }
+
+        .modal h3 {
+            color: #1f2937;
+            margin-top: 1.5rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .modal p, .modal li {
+            color: #4b5563;
+            line-height: 1.8;
+            margin-bottom: 1rem;
+        }
+
+        .modal ul {
+            margin-left: 1.5rem;
+        }
+
+        /* Calculator Styles */
+        .calculator-input {
+            margin-bottom: 1.5rem;
+        }
+
+        .calculator-input label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+            color: #1f2937;
+        }
+
+        .calculator-input input {
+            width: 100%;
+            padding: 0.875rem;
+            border: 1px solid #d1d5db;
+            border-radius: 8px;
+            font-size: 1rem;
+        }
+
+        .calculator-result {
+            background: #f0fdf4;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-top: 1.5rem;
+        }
+
+        .calculator-result h3 {
+            color: #22c55e;
+            margin-bottom: 1rem;
+        }
+
+        .result-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 0.5rem 0;
+            border-bottom: 1px solid #d1fae5;
+        }
+
+        .result-item:last-child {
+            border-bottom: none;
+            font-weight: bold;
+            font-size: 1.125rem;
+            padding-top: 1rem;
+        }
+
+        .footer {
+            background: #22c55e;
+            color: white;
+            padding: 3rem 2rem 2rem;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .footer-section h4 {
+            margin-bottom: 1rem;
+            font-size: 1.25rem;
+        }
+
+        .footer-links {
+            list-style: none;
+        }
+
+        .footer-links li {
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-links a {
+            color: white;
+            text-decoration: none;
+            transition: opacity 0.3s ease;
+        }
+
+        .footer-links a:hover {
+            opacity: 0.8;
+        }
+
+        .footer h3 {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+
+        .footer-emails {
+            margin: 2rem 0;
+            text-align: center;
+        }
+
+        .email-item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            margin: 1rem 0;
+            font-size: 1.125rem;
+        }
+
+        .email-item svg {
+            width: 24px;
+            height: 24px;
+        }
+
+        .email-item a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .social-links {
+            margin: 2rem 0;
+            text-align: center;
+        }
+
+        .social-links h4 {
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+
+        .social-icons {
+            display: flex;
+            gap: 2rem;
+            justify-content: center;
+        }
+
+        .social-icons a {
+            color: white;
+            transition: opacity 0.3s ease;
+        }
+
+        .social-icons a:hover {
+            opacity: 0.7;
+        }
+
+        .social-icons svg {
+            width: 32px;
+            height: 32px;
+        }
+
+        .copyright {
+            margin-top: 2rem;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255,255,255,0.2);
+            opacity: 0.9;
+            text-align: center;
+        }
+
+        .legal-links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .legal-links a {
+            color: white;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+
+        @media (max-width: 768px) {
+            .nav-menu {
+                position: fixed;
+                left: -100%;
+                top: 60px;
+                flex-direction: column;
+                background: #22c55e;
+                width: 100%;
+                text-align: center;
+                transition: 0.3s;
+                box-shadow: 0 10px 27px rgba(0,0,0,0.1);
+                padding: 2rem 0;
+            }
+
+            .nav-menu.active {
+                left: 0;
+            }
+
+            .hamburger {
+                display: flex;
+            }
+
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .hero p {
+                font-size: 1rem;
+            }
+
+            .hero .promo {
+                font-size: 1.5rem;
+            }
+
+            .hero-buttons {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .section-title {
+                font-size: 2rem;
+            }
+
+            .cta-section h2 {
+                font-size: 1.75rem;
+            }
+
+            .modal-content {
+                width: 95%;
+                margin: 10% auto;
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="logo">
+                <svg width="36" height="36" viewBox="0 0 64 64"
+     xmlns="http://www.w3.org/2000/svg"
+     aria-hidden="true" role="img">
+  <!-- Outer shield shape -->
+  <path d="M32 4 L50 12 V28 C50 42 39 51 32 56 C25 51 14 42 14 28 V12 Z"
+        fill="white" opacity="0.95"/>
+  
+  <!-- Roof of the bank -->
+  <polygon points="20,22 44,22 32,14" fill="#22c55e"/>
+  
+  <!-- Pillars -->
+  <rect x="22.5" y="26" width="4" height="12" rx="0.8" fill="#22c55e"/>
+  <rect x="29.5" y="26" width="4" height="12" rx="0.8" fill="#22c55e"/>
+  <rect x="36.5" y="26" width="4" height="12" rx="0.8" fill="#22c55e"/>
+  
+  <!-- Bank base (step) -->
+  <rect x="20" y="40" width="24" height="3" rx="1" fill="#22c55e"/>
+</svg>
+                Techspace Finance
+            </div>
+            <div class="hamburger" id="hamburger" role="button" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu" role="navigation">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Service</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contact-form">Contact</a></li>
+                <li><a href="#" onclick="openCalculator(); return false;">Calculator</a></li>
+                <li><a href="eligibility.html" class="highlight">Check Eligibility</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Welcome to Techspace Finance</h1>
+            <p>Access instant loans with seamless M-PESA integration. Start by checking your eligibility today!</p>
+            <div class="promo">Get up to KES 35,000+ on your first application!</div>
+            <div class="hero-buttons">
+                <a href="eligibility.html" class="btn btn-primary">Check Loan Eligibility</a>
+                <a href="#" class="btn btn-outline">Track Loan Progress</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="section how-it-works" id="how-it-works">
+        <h2 class="section-title">How It Works</h2>
+        <div class="steps-container">
+            <div class="step">
+                <div class="step-number">1</div>
+                <h3>Apply</h3>
+                <p>Fill out our simple online application form with your details and loan requirements.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <h3>Get Approved</h3>
+                <p>Receive instant approval based on your eligibility and credit assessment.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <h3>Receive Funds</h3>
+                <p>Money is disbursed directly to your M-PESA account within minutes.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">4</div>
+                <h3>Repay</h3>
+                <p>Make convenient repayments via M-PESA according to your agreed schedule.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="services">
+        <h2 class="section-title">Our Services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                </svg>
+                <h3>Instant Loans</h3>
+                <p>Get quick access to funds directly to your M-PESA account with zero paperwork.</p>
+            </div>
+            <div class="service-card">
+                <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                </svg>
+                <h3>Seamless M-PESA Integration</h3>
+                <p>Enjoy loan disbursements and repayments via M-PESA.</p>
+            </div>
+            <div class="service-card">
+                <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                <h3>Easy Eligibility Check</h3>
+                <p>Verify your loan eligibility in minutes with our simple online process.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section testimonials" id="testimonials">
+        <h2 class="section-title">What Our Customers Say</h2>
+        <div class="testimonials-slider">
+            <div class="testimonial-track" id="testimonialTrack">
+                <div class="testimonial">
+                    <div class="rating">★★★★★</div>
+                    <p class="testimonial-text">"Techspace Finance saved me during an emergency! The application was quick, and I received the money in my M-PESA account within 10 minutes. Highly recommended!"</p>
+                    <p class="testimonial-author">Jane Wanjiku</p>
+                    <p class="testimonial-role">Small Business Owner, Nairobi</p>
+                </div>
+                <div class="testimonial">
+                    <div class="rating">★★★★★</div>
+                    <p class="testimonial-text">"I've used several loan apps, but Techspace Finance stands out. The interest rates are fair, and the repayment process through M-PESA is so convenient. Great service!"</p>
+                    <p class="testimonial-author">David Omondi</p>
+                    <p class="testimonial-role">Graphic Designer, Mombasa</p>
+                </div>
+                <div class="testimonial">
+                    <div class="rating">★★★★★</div>
+                    <p class="testimonial-text">"As a first-time borrower, I was nervous, but the customer support team guided me through everything. The entire process was transparent and professional."</p>
+                    <p class="testimonial-author">Grace Njeri</p>
+                    <p class="testimonial-role">Teacher, Kisumu</p>
+                </div>
+            </div>
+            <div class="slider-dots" id="sliderDots"></div>
+        </div>
+    </section>
+
+    <!-- Loan Repayment Details Section -->
+    <section class="section loan-details" id="loan-details">
+        <h2 class="section-title">Loan Repayment & Interest Details</h2>
+        <div class="details-grid">
+            <div class="detail-card">
+                <h3>Interest Rates</h3>
+                <ul>
+                    <li>Competitive 7% interest rate</li>
+                    <li>No hidden charges</li>
+                    <li>Transparent fee structure</li>
+                    <li>Lower rates for repeat customers</li>
+                </ul>
+            </div>
+            <div class="detail-card">
+                <h3>Repayment Terms</h3>
+                <ul>
+                    <li>Flexible repayment periods (1-6 months)</li>
+                    <li>Easy M-PESA repayments</li>
+                    <li>Automated payment reminders</li>
+                    <li>Early repayment discounts available</li>
+                </ul>
+            </div>
+            <div class="detail-card">
+                <h3>Loan Amounts</h3>
+                <ul>
+                    <li>First-time: Up to KES 35,000</li>
+                    <li>Repeat customers: Up to KES 150,000</li>
+                    <li>Instant approval for qualified applicants</li>
+                    <li>No collateral required</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section faq" id="faq">
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <div class="faq-container">
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    How quickly can I get a loan?
+                </button>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        Once your application is approved, funds are typically disbursed to your M-PESA account within 5-10 minutes. The approval process itself takes just a few minutes.
+                    </div>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    What are the eligibility requirements?
+                </button>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        You must be a Kenyan citizen aged 18 years or above, have a valid National ID, own a registered M-PESA account, and have a steady source of income.
+                    </div>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    How do I repay my loan?
+                </button>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        Repayments are made conveniently through M-PESA. You'll receive payment instructions and reminders via SMS. You can also set up automatic deductions from your M-PESA account.
+                    </div>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    What happens if I miss a payment?
+                </button>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        We understand that emergencies happen. Contact our support team immediately if you anticipate missing a payment. We offer grace periods and can work out a revised payment plan. Late payments may incur additional fees.
+                    </div>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    Is my personal information secure?
+                </button>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        Absolutely! We use bank-level SSL encryption to protect your data. We comply with Kenyan data protection regulations and never share your information with third parties without your consent.
+                    </div>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    Can I get another loan if I have an existing one?
+                </button>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        You must fully repay your current loan before applying for a new one. However, customers with good repayment history qualify for higher loan amounts and better terms.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Security & Compliance Section -->
+    <section class="section security" id="security">
+        <h2 class="section-title">Security & Compliance</h2>
+        <p style="max-width: 800px; margin: 0 auto 2rem; color: #4b5563; font-size: 1.125rem;">
+            Your security is our top priority. We employ industry-leading security measures to protect your data and transactions.
+        </p>
+        <div class="security-badges">
+            <div class="security-badge">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                </svg>
+                <span>256-bit SSL Encryption</span>
+            </div>
+            <div class="security-badge">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                </svg>
+                <span>Data Protection Compliant</span>
+            </div>
+            <div class="security-badge">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                <span>CBK Regulated</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partners Section -->
+    <section class="section partners" id="partners">
+        <h2 class="section-title">Our Partners & Accreditations</h2>
+        <div class="partners-grid">
+            <div class="partner-logo">M-PESA</div>
+            <div class="partner-logo">Central Bank of Kenya (CBK)</div>
+            <div class="partner-logo">Safaricom</div>
+            <div class="partner-logo">Kenya Bankers Association</div>
+        </div>
+    </section>
+
+    <section class="section about" id="about">
+        <h2 class="section-title">About Us</h2>
+        <div class="about-content">
+            <p>Techspace Finance is dedicated to providing fast, secure, and convenient loan services to Kenyans. Our mission is to empower you with financial solutions that are accessible anytime, anywhere, through seamless M-PESA integration.</p>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <h2>Ready to Get Started?</h2>
+        <p>Check your loan eligibility now and get instant access to funds!</p>
+        <div class="hero-buttons">
+            <a href="eligibility.html" class="btn btn-outline">Check Eligibility Now</a>
+            <a href="#contact-form" class="btn btn-outline">Contact Support</a>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="section contact-form-section" id="contact-form">
+        <h2 class="section-title">Get In Touch</h2>
+        <form class="contact-form" id="contactForm">
+            <div class="form-group">
+                <label for="name">Full Name *</label>
+                <input type="text" id="name" name="name" required aria-required="true">
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" required aria-required="true">
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number *</label>
+                <input type="tel" id="phone" name="phone" required aria-required="true">
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject *</label>
+                <select id="subject" name="subject" required aria-required="true">
+                    <option value="">Select a subject</option>
+                    <option value="loan-inquiry">Loan Inquiry</option>
+                    <option value="support">Customer Support</option>
+                    <option value="complaint">Complaint</option>
+                    <option value="feedback">Feedback</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="message">Message *</label>
+                <textarea id="message" name="message" required aria-required="true"></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer class="footer" id="contact">
+        <div class="footer-content">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#how-it-works">How It Works</a></li>
+                        <li><a href="#faq">FAQs</a></li>
+                        <li><a href="eligibility.html">Check Eligibility</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="#" onclick="openAboutUs(); return false;">About Us</a></li>
+                        <li><a href="#contact-form">Contact</a></li>
+                        <li><a href="#" onclick="openCalculator(); return false;">Loan Calculator</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul class="footer-links">
+                        <li><a href="#" onclick="openPrivacy(); return false;">Privacy Policy</a></li>
+                        <li><a href="#" onclick="openTerms(); return false;">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <ul class="footer-links">
+                        <li>Email: support@techspace-finance.com</li>
+                        <li>Email: info@techspace-finance.com</li>
+                        <li>Licensed by CBK</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="social-links">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="Twitter">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="Instagram">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                &copy; 2025 Techspace Finance. All rights reserved.
+                <div class="legal-links">
+                    <a onclick="openPrivacy(); return false;">Privacy Policy</a>
+                    <a onclick="openTerms(); return false;">Terms of Service</a>
+                    <a onclick="openAboutUs(); return false;">About Us</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Loan Calculator Modal -->
+    <div id="calculatorModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeCalculator()">&times;</span>
+            <h2>Loan Calculator</h2>
+            <p>Calculate your loan repayment with our 7% interest rate</p>
+            
+            <div class="calculator-input">
+                <label for="loanAmount">Loan Amount (KES)</label>
+                <input type="number" id="loanAmount" min="1000" max="150000" value="10000" oninput="calculateLoan()">
+            </div>
+            
+            <div class="calculator-input">
+                <label for="loanPeriod">Repayment Period (Months)</label>
+                <input type="number" id="loanPeriod" min="1" max="6" value="3" oninput="calculateLoan()">
+            </div>
+            
+            <div class="calculator-result" id="calculatorResult">
+                <h3>Repayment Summary</h3>
+                <div class="result-item">
+                    <span>Loan Amount:</span>
+                    <span id="resultPrincipal">KES 10,000</span>
+                </div>
+                <div class="result-item">
+                    <span>Interest (7%):</span>
+                    <span id="resultInterest">KES 700</span>
+                </div>
+                <div class="result-item">
+                    <span>Total Repayment:</span>
+                    <span id="resultTotal">KES 10,700</span>
+                </div>
+                <div class="result-item">
+                    <span>Monthly Payment:</span>
+                    <span id="resultMonthly">KES 3,567</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Privacy Policy Modal -->
+    <div id="privacyModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closePrivacy()">&times;</span>
+            <h2>Privacy Policy</h2>
+            <p><strong>Last Updated: October 26, 2025</strong></p>
+            
+            <h3>1. Information We Collect</h3>
+            <p>We collect personal information including your name, national ID number, phone number, M-PESA details, and financial information necessary to process your loan application.</p>
+            
+            <h3>2. How We Use Your Information</h3>
+            <p>Your information is used to:</p>
+            <ul>
+                <li>Process and approve loan applications</li>
+                <li>Disburse funds to your M-PESA account</li>
+                <li>Manage loan repayments</li>
+                <li>Comply with regulatory requirements</li>
+                <li>Improve our services</li>
+            </ul>
+            
+            <h3>3. Data Protection</h3>
+            <p>We employ industry-standard security measures including 256-bit SSL encryption to protect your data. We comply with Kenya's Data Protection Act and never share your personal information with third parties without your explicit consent.</p>
+            
+            <h3>4. Your Rights</h3>
+            <p>You have the right to access, correct, or delete your personal data. Contact us at privacy@techspace-finance.com for any data-related requests.</p>
+            
+            <h3>5. Contact Us</h3>
+            <p>For questions about this Privacy Policy, please contact us at support@techspace-finance.com</p>
+        </div>
+    </div>
+
+    <!-- Terms of Service Modal -->
+    <div id="termsModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeTerms()">&times;</span>
+            <h2>Terms of Service</h2>
+            <p><strong>Last Updated: October 26, 2025</strong></p>
+            
+            <h3>1. Acceptance of Terms</h3>
+            <p>By using Techspace Finance services, you agree to these Terms of Service and all applicable laws and regulations.</p>
+            
+            <h3>2. Eligibility</h3>
+            <p>You must be:</p>
+            <ul>
+                <li>At least 18 years old</li>
+                <li>A Kenyan citizen with a valid National ID</li>
+                <li>Have an active M-PESA account</li>
+                <li>Have a steady source of income</li>
+            </ul>
+            
+            <h3>3. Loan Terms</h3>
+            <p>All loans are subject to approval. Interest rates, loan amounts, and repayment periods are determined based on your creditworthiness and application details. Current interest rate is 7%.</p>
+            
+            <h3>4. Repayment Obligations</h3>
+            <p>You agree to repay the loan according to the agreed schedule. Late payments may incur additional fees and affect your credit score.</p>
+            
+            <h3>5. Prohibited Activities</h3>
+            <p>You may not:</p>
+            <ul>
+                <li>Provide false information</li>
+                <li>Use loans for illegal activities</li>
+                <li>Share your account credentials</li>
+                <li>Attempt to defraud our systems</li>
+            </ul>
+            
+            <h3>6. Limitation of Liability</h3>
+            <p>Techspace Finance is not liable for any indirect, incidental, or consequential damages arising from the use of our services.</p>
+            
+            <h3>7. Contact</h3>
+            <p>For questions about these Terms, contact us at legal@techspace-finance.com</p>
+        </div>
+    </div>
+
+    <!-- About Us Modal -->
+    <div id="aboutModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeAboutUs()">&times;</span>
+            <h2>About Techspace Finance</h2>
+            
+            <h3>Our Mission</h3>
+            <p>Techspace Finance is committed to providing accessible, fast, and secure financial solutions to Kenyans. We believe everyone deserves access to quick financial assistance when they need it most.</p>
+            
+            <h3>Who We Are</h3>
+            <p>Founded in 2024, we are a licensed digital lending platform regulated by the Central Bank of Kenya (CBK). Our team of financial experts and technology professionals work together to deliver seamless loan services through M-PESA integration.</p>
+            
+            <h3>What We Do</h3>
+            <p>We provide instant loans ranging from KES 1,000 to KES 150,000 with competitive interest rates and flexible repayment terms. Our entirely digital process eliminates paperwork and long waiting times.</p>
+            
+            <h3>Our Values</h3>
+            <ul>
+                <li><strong>Transparency:</strong> Clear terms with no hidden fees</li>
+                <li><strong>Security:</strong> Bank-level encryption and data protection</li>
+                <li><strong>Speed:</strong> Instant approval and disbursement</li>
+                <li><strong>Customer First:</strong> 24/7 support for all our customers</li>
+            </ul>
+            
+            <h3>Regulatory Compliance</h3>
+            <p>We are fully licensed and regulated by the Central Bank of Kenya and comply with all digital lending regulations in Kenya.</p>
+            
+            <h3>Contact Us</h3>
+            <p>Email: info@techspace-finance.com<br>
+            Support: support@techspace-finance.com</p>
+        </div>
+    </div>
+
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navMenu = document.getElementById('navMenu');
+
+        hamburger.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+
+        document.querySelectorAll('.nav-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+            });
+        });
+
+        // FAQ Accordion
+        document.querySelectorAll('.faq-question').forEach(button => {
+            button.addEventListener('click', () => {
+                const wasActive = button.classList.contains('active');
+                
+                document.querySelectorAll('.faq-question').forEach(btn => {
+                    btn.classList.remove('active');
+                    btn.setAttribute('aria-expanded', 'false');
+                    btn.nextElementSibling.classList.remove('active');
+                });
+                
+                if (!wasActive) {
+                    button.classList.add('active');
+                    button.setAttribute('aria-expanded', 'true');
+                    button.nextElementSibling.classList.add('active');
+                }
+            });
+        });
+
+        // Testimonials Slider
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.testimonial');
+        const totalSlides = slides.length;
+        const track = document.getElementById('testimonialTrack');
+        const dotsContainer = document.getElementById('sliderDots');
+
+        for (let i = 0; i < totalSlides; i++) {
+            const dot = document.createElement('div');
+            dot.classList.add('dot');
+            if (i === 0) dot.classList.add('active');
+            dot.addEventListener('click', () => goToSlide(i));
+            dotsContainer.appendChild(dot);
+        }
+
+        function goToSlide(index) {
+            currentSlide = index;
+            track.style.transform = `translateX(-${currentSlide * 100}%)`;
+            
+            document.querySelectorAll('.dot').forEach((dot, i) => {
+                dot.classList.toggle('active', i === currentSlide);
+            });
+        }
+
+        function nextSlide() {
+            currentSlide = (currentSlide + 1) % totalSlides;
+            goToSlide(currentSlide);
+        }
+
+        setInterval(nextSlide, 5000);
+
+        // Contact Form Submission
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for contacting us! We will get back to you within 24 hours.');
+            this.reset();
+        });
+
+        // Modal Functions
+        function openCalculator() {
+            document.getElementById('calculatorModal').style.display = 'block';
+            calculateLoan();
+        }
+
+        function closeCalculator() {
+            document.getElementById('calculatorModal').style.display = 'none';
+        }
+
+        function openPrivacy() {
+            document.getElementById('privacyModal').style.display = 'block';
+        }
+
+        function closePrivacy() {
+            document.getElementById('privacyModal').style.display = 'none';
+        }
+
+        function openTerms() {
+            document.getElementById('termsModal').style.display = 'block';
+        }
+
+        function closeTerms() {
+            document.getElementById('termsModal').style.display = 'none';
+        }
+
+        function openAboutUs() {
+            document.getElementById('aboutModal').style.display = 'block';
+        }
+
+        function closeAboutUs() {
+            document.getElementById('aboutModal').style.display = 'none';
+        }
+
+        window.onclick = function(event) {
+            if (event.target.classList.contains('modal')) {
+                event.target.style.display = 'none';
+            }
+        }
+
+        // Loan Calculator
+        function calculateLoan() {
+            const principal = parseFloat(document.getElementById('loanAmount').value) || 0;
+            const months = parseFloat(document.getElementById('loanPeriod').value) || 1;
+            const interestRate = 0.07;
+            
+            const interest = principal * interestRate;
+            const total = principal + interest;
+            const monthlyPayment = total / months;
+            
+            document.getElementById('resultPrincipal').textContent = `KES ${principal.toLocaleString()}`;
+            document.getElementById('resultInterest').textContent = `KES ${interest.toLocaleString()}`;
+            document.getElementById('resultTotal').textContent = `KES ${total.toLocaleString()}`;
+            document.getElementById('resultMonthly').textContent = `KES ${monthlyPayment.toLocaleString(undefined, {maximumFractionDigits: 2})}`;
+        }
+
+        // Google Analytics Placeholder
+        // Replace 'GA_MEASUREMENT_ID' with your actual Google Analytics ID
+        /*
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'GA_MEASUREMENT_ID');
+        */
+    </script>
+    
+    <!-- Google Analytics (Replace with your tracking ID) -->
+    <!--
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    -->
+</body>
+    </html>

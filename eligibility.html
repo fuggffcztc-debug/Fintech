@@ -1022,6 +1022,8 @@
     </div>
 
     <script>
+        const BACKEND_URL = 'YOUR_REPLIT_BACKEND_URL_HERE';
+        
         let currentStep = 1;
         const formData = {};
 
@@ -1396,9 +1398,32 @@
 
                 localStorage.setItem('loanApplication', JSON.stringify(formData));
 
-                showSubmitModal();
+                submitToBackend();
             }
         });
+
+        function submitToBackend() {
+            fetch(`${BACKEND_URL}/submit-eligibility`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(formData)
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    console.log('Application submitted successfully:', data);
+                    showSubmitModal();
+                } else {
+                    showNotification('error', 'Submission Error', [data.message || 'Failed to submit application']);
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                showNotification('error', 'Network Error', ['Unable to connect to server. Please try again.']);
+            });
+        }
 
         function showSubmitModal() {
             const modal = document.getElementById('submitModal');
